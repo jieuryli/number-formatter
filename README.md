@@ -1,5 +1,28 @@
-# Javascript Number Formatter
+Number Formatter
+=========
 
-Based on a tutorial at 
+A small library that adds commas to numbers
 
-https://medium.com/@jdaudier/how-to-create-and-publish-your-first-node-js-module-444e7585b738#.irmaiwczy.
+## Installation
+
+  `npm install @jieuryli/number-formatter`
+
+## Usage
+
+    var numFormatter = require('@jieuryli/number-formatter');
+
+    var formattedNum = numFormatter(35667);
+
+
+  Output should be `35,667`
+
+
+## Tests
+
+  `npm tests`
+
+## Contributing
+
+In lieu of a formal style guide, take care to maintain the existing
+coding style.  Add unit tests for any new or changed functionality.  
+Lint and test your code.
